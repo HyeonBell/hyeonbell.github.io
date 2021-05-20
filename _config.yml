@@ -8,13 +8,12 @@ header_pages:
 
 #footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
-style: hacker # light # dark (default) or light
+style: hacker
 listen_for_clients_preferred_style: true # true or false (default)
 
 plugins:
   - jekyll-seo-tag
-  
-remote_theme : b2a3e8/jekyll-theme-console
+
 locale                   : "en-US"
 title                    : "hyeonbell"
 title_separator          : ""
@@ -22,3 +21,7 @@ name                     : ""
 description              : "Security"
 url : "https://hyeonbell.github.io/"
 baseurl : ""
+
+# Build settings
+markdown: kramdown
+remote_theme: b2a3e8/jekyll-theme-console

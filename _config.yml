@@ -1,26 +1,14 @@
-# Example Site settings
-
-#google_analytics: UA-NNNNNNNN-N
+title: 'hyeonbell'
+description: "."
+baseurl: "/"
+url : "https://hyeonbell.github.io/"
 
 header_pages:
   - index.md
-#  - about.md
-
-#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
 style: hacker
-listen_for_clients_preferred_style: true # true or false (default)
 
-plugins:
-  - jekyll-seo-tag
-
-locale                   : "en-US"
-title                    : "hyeonbell"
-title_separator          : ""
-name                     : ""
-description              : "Security"
-url : "https://hyeonbell.github.io/"
-baseurl : ""
+footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
 
 # Build settings
 markdown: kramdown
